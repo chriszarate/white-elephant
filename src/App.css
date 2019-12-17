@@ -1,0 +1,14 @@
+html, body {
+	margin: 0;
+}
+
+main {
+	height: 100vh;
+	padding: 3em;
+}
+
+.card {
+	font-size: 1.2em;
+	line-height: 1.4;
+	text-align: left;
+}
