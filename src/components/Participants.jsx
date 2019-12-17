@@ -64,7 +64,7 @@ export default function ( { children, addPerson, people, removePerson, show } ) 
 								>
 									<Form.Field>
 										<Input
-											placeholder="Participant’s name"
+											placeholder="Name + ENTER"
 											ref={inputRef}
 											type="text"
 										/>
