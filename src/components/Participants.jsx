@@ -1,13 +1,18 @@
 import React, { createRef, useState } from 'react';
-import { Button, Form, Input, Item } from 'semantic-ui-react';
+import { Button, Form, Header, Input, Item } from 'semantic-ui-react';
 
-export default function ( { children, addPerson, people, removePerson } ) {
+export default function ( { children, addPerson, people, removePerson, show } ) {
 	const [ showForm, setShowForm ] = useState( false );
 	const toggleForm = () => setShowForm( !showForm );
 	const inputRef = createRef();
 
+	if ( !show ) {
+		return null;
+	}
+
 	return (
 		<>
+			<Header as="h1">White Elephant</Header>
 			<Item.Group divided>
 				{
 					people.map( person => (

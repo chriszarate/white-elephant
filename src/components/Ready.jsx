@@ -1,9 +1,9 @@
 import React from 'react';
 import { Modal } from 'semantic-ui-react';
 
-export default function ( { children, count, open } ) {
+export default function ( { children, count, show } ) {
 	return (
-		<Modal open={open}>
+		<Modal open={show}>
 			<Modal.Header>Ready to start?</Modal.Header>
 			<Modal.Content scrolling>
 				<Modal.Description>
