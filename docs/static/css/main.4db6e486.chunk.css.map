@@ -1,0 +1,1 @@
+{"version":3,"sources":["App.css"],"names":[],"mappings":"AAAA,UACC,QACD,CAEA,KACC,YAAa,CACb,WACD,CAEA,MACC,eAAgB,CAChB,eAAgB,CAChB,eACD","file":"main.4db6e486.chunk.css","sourcesContent":["html, body {\n\tmargin: 0;\n}\n\nmain {\n\theight: 100vh;\n\tpadding: 3em;\n}\n\n.card {\n\tfont-size: 1.2em;\n\tline-height: 1.4;\n\ttext-align: left;\n}\n"]}
