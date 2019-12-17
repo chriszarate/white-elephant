@@ -18,6 +18,7 @@
   "eslintConfig": {
     "extends": "react-app"
   },
+  "homepage": "./",
   "browserslist": {
     "production": [
       "last 1 chrome version",
